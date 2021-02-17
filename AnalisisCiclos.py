@@ -199,8 +199,6 @@ if __name__ == '__main__':
         
         # axs[1, 1].plot(ejex_comun, beta_reg[i](ejex_comun))
         # axs[1, 1].plot(ejex_comun, delta_nor[i])
-
-    print(len(delta_nor[0]), len(delta_nor[1]))
     promedio = (delta_nor[0] + delta_nor[1])/2
     print(len(promedio))
     plt.plot(ejex_comun, delta_nor[0])
