@@ -207,9 +207,6 @@ if __name__ == '__main__':
     plt.plot(ejex_comun, delta_nor[1])
     plt.plot(ejex_comun, promedio)
 
-    plt.show()
-
-
-    # plt.scatter(ejex, beta)
-    # plt.plot([0, 100], [0, 0], 'k-', lw=2, dashes=[2, 2])
+    plt.show()  
+    
 '''
