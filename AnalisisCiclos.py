@@ -195,7 +195,7 @@ def calcular_promedio():
         axs[1, 0].plot(ejex_comun, prom_delta)
     plt.show()
 
-    fig, axs = graficar(lado='Miembro derecho')
+    fig, axs = graficar(lado='Miembro derecho').
     for i in range(num_ciclos):
         axs[0, 0].plot(ejex_der[i], alfa_der[i])
         axs[0, 1].plot(ejex_der[i], beta_der[i])
